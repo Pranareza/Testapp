@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login">
+
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="226dp"
+        android:layout_height="53dp"
+        android:fontFamily="@font/rubik"
+        android:text="Kode Keluarga"
+        android:textColor="#000000"
+        android:textColorHighlight="#000000"
+        android:textColorHint="#000000"
+        android:textSize="27sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.197"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.055" />
+
+
+    <TextView
+        android:id="@+id/txt3"
+        android:layout_width="323dp"
+        android:layout_height="46dp"
+        android:text="Ketikan kode keluarga yang Ayah Bunda miliki disini"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.602"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.159" />
+
+    <TextView
+        android:id="@+id/txt4"
+        android:layout_width="324dp"
+        android:layout_height="60dp"
+        android:background="@drawable/kode"
+        android:gravity="center"
+        android:text="A1B2C3"
+        android:textColor="#000000"
+        android:textColorHighlight="#000000"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.609"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.274" />
+
+    <TextView
+        android:id="@+id/txt5"
+        android:layout_width="329dp"
+        android:layout_height="72dp"
+        android:fontFamily="@font/rubik"
+        android:gravity="center"
+        android:text="Dengan menekan tombol masuk berarti anda menyetujui Kebijakan Pengguna dan Kebijakan Data kami"
+        android:textColor="#000000"
+        android:textSize="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.524"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.411" />
+
+    <Button
+        android:id="@+id/masuk"
+        android:layout_width="334dp"
+        android:layout_height="54dp"
+        android:background="@drawable/home"
+        android:text="Masuk"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textColorHighlight="#000000"
+        android:textColorHint="#000000"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.534" />
+
+    <TextView
+        android:id="@+id/txt6"
+        android:layout_width="336dp"
+        android:layout_height="45dp"
+        android:fontFamily="@font/rubik"
+        android:gravity="center"
+        android:text="Belum punya kode keluarga?"
+        android:textColor="#525B60"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/masuk"
+        app:layout_constraintVertical_bias="0.643" />
+
+    <Button
+        android:id="@+id/btnKode"
+        android:layout_width="341dp"
+        android:layout_height="57dp"
+        android:background="@drawable/btnblue"
+        android:fontFamily="@font/rubik"
+        android:text="Beli Kode Keluarga Disini"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt6"
+        app:layout_constraintVertical_bias="0.313" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
